@@ -5,8 +5,7 @@ const genres = require("./routes/genres");
 const customers = require("./routes/customers");
 const movies = require("./routes/movies");
 
-const url =
-  "mongodb+srv://boss:Artur986@nodedb.48fns.mongodb.net/GenresTutorial?retryWrites=true&w=majority";
+const url = '' // mongodb url to vidly db
 
 mongoose
   .connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
